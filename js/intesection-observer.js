@@ -22,7 +22,7 @@ function cargarImagen(entradas, observador) {
 const observador = new IntersectionObserver(cargarImagen, {
     root: null,
     rootMargin: '0px',
-    threshold: 1
+    threshold: 0.8
 });
 
 /*
